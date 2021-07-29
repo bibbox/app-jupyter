@@ -1,0 +1,21 @@
+version: '3'
+networks:
+    bibbox-default-network:
+      external: true
+services:
+  local-jupyter:
+    image: jupyter/datascience-notebook
+    container_name:  local-jupyter
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    # proxy:
+    #     TYPE: PRIMARY
+    #     URLPREFIX:  §§INSTANCE
+    #     TEMPLATE: websocket
+    #     DISPLAYNAME: 'Jupyter'
+    #     PATH_TO_SOCKET: '/api/kernels/'
+    ports:
+        - "8888:8888"
+    volumes:
+        - ./home/jovyan/work:/home/jovyan/work
