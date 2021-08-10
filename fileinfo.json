@@ -3,6 +3,7 @@
 	"script_replace": [],
 	"permissions": {
 		"notebooks" : 777,
-		"icon.png" : 777
+		"icon.png" : 777,
+		"doesnotexist" : 777
 	}
 }
