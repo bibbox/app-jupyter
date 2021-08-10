@@ -8,6 +8,8 @@ services:
         restart: unless-stopped
         networks:
             - bibbox-default-network
+        environment:
+            - JUPYTER_TOKEN=§§JUPYTER_TOKEN
         proxy:
             TYPE: PRIMARY
             URLPREFIX:  §§INSTANCE
@@ -18,9 +20,3 @@ services:
             - "8888:8888"
         volumes:
             - ./notebooks:/home/jovyan/work
-        #command:
-        #    - "start-notebook.sh --NotebookApp.token='testpw' -u $UID'"
-        environment:
-            - JUPYTER_TOKEN=§§JUPYTER_TOKEN
-        user:
-            - $UID
