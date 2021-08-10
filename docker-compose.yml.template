@@ -1,4 +1,3 @@
-version: '3'
 networks:
     bibbox-default-network:
       external: true
