@@ -18,4 +18,6 @@ services:
         ports:
             - "8888:8888"
         volumes:
-            - ./notebooks:/home/jovyan/notebooks
+            - ./notebooks:/home/jovyan/work
+        command:
+            - '-u $UID'
