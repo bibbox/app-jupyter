@@ -21,4 +21,6 @@ services:
         #command:
         #    - "start-notebook.sh --NotebookApp.token='testpw' -u $UID'"
         environment:
-            - JUPYTER_TOKEN=token
+            - JUPYTER_TOKEN=§§JUPYTER_TOKEN
+        user:
+            - $UID
