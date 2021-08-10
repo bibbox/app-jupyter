@@ -1,5 +1,8 @@
 {
 	"environment_replace": {},
 	"script_replace": [],
-	"permissions": {"notebooks" : 777}
+	"permissions": {
+		"notebooks" : 777,
+		"icon.png" : 777
+	}
 }
