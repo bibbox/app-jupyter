@@ -2,8 +2,6 @@
 	"environment_replace": {},
 	"script_replace": [],
 	"permissions": {
-		"notebooks" : 775,
-		"icon.png" : 775,
-		"doesnotexist" : 775
+		"notebooks" : 775
 	}
 }
