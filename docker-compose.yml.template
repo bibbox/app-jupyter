@@ -19,4 +19,4 @@ services:
         volumes:
             - ./notebooks:/home/jovyan/work
         command:
-            - 'start-notebook.sh --NotebookApp.token='testpw' -u $UID'
+            - "start-notebook.sh --NotebookApp.token='testpw' -u $UID'"
