@@ -32,13 +32,15 @@ If necessary change the ports in the environment file .env and the volume mounts
 Follow the link above and find the App by its name. Click on the Symbol and select Install. Then fill the Parameters below and Name your app Click install again
 
 ## Docker Images used
- * [bibbox/seeddms](https://hub.docker.com/r/bibbox/seeddms/) 
- * [mariaDB](https://hub.docker.com/_/mariadb/), offical mariaDB container
+ * [jupyter/datascience-notebook](https://hub.docker.com/r/jupyter/datascience-notebook/) 
  
 ## Install Environment Variables
   *	JUPYTER_TOKEN
-  
+
+The default values for the standalone installation are:
+  * JUPYTER_TOKEN=token
+
 ## Mounted Volumes
 
 ### SEED-DMS Container
-* _./notebooks_ will be mounted to _/home/jovyan/work_ (put your Notebooks into Notebooks)
+* _./notebooks_ will be mounted to _/home/jovyan/work_ (put your Notebooks into notebooks to have them in the container)
