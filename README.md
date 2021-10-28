@@ -42,5 +42,5 @@ The default values for the standalone installation are:
 
 ## Mounted Volumes
 
-### SEED-DMS Container
+### Jupyter Container
 * _./notebooks_ will be mounted to _/home/jovyan/work_ (put your Notebooks into notebooks to have them in the container)
