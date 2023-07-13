@@ -4,7 +4,7 @@ networks:
       external: true
 services:
   local-jupyter:
-    image: jupyter/datascience-notebook
+    image: jupyter/datascience-notebook:notebook-6.5.4
     container_name:  local-jupyter
     restart: unless-stopped
     networks:
