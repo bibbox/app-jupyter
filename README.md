@@ -38,6 +38,6 @@ The default values for the standalone installation are:
 
   
 ## Mounted Volumes
-### jupyter/datascience-notebook Conatiner
+### jupyter/datascience-notebook Container
   - *./notebooks:/home/jovyan/work*
 
