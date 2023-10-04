@@ -15,6 +15,9 @@ docker network create bibbox-default-network
 docker-compose up -d
 ```
 
+At the bottom of the log file displayed there will be a link (starting with http://127.0.0.1:8888/?token=) you can follow to access the Notebook the token there will be set automatically.
+
+
 The main App can be opened and set up at:
 ```
 http://localhost:8888
