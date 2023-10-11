@@ -7,5 +7,6 @@
 	"catalogue_url": "",
 	"application_url": "http://jupyter.org",
 	"tags": ["Data Analysis", "Data Integration"],
-	"application_documentation_url": "https://jupyter.readthedocs.io/en/latest"
+	"application_documentation_url": "https://jupyter.readthedocs.io/en/latest",
+	"instance_information": "work in progress"
 }
