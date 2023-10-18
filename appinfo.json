@@ -1,7 +1,7 @@
 {
 	"name": "Jupyter Datascience Notebook Stack",
 	"short_name": "Jupyter",
-	"version": "v6.5.4",
+	"version": "v6.4.5",
 	"description": "The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.",
 	"short_description": "Interactive data science and scientific computing",
 	"catalogue_url": "",
